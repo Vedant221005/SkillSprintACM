@@ -66,7 +66,12 @@ const timelineData = [
           <p className="text-xl max-w-2xl mx-auto">
             SkillSprint is a 4-week competition organized by ACMxPCCOER, featuring exciting contests in DSA, Figma, Web Coding, and AIML.
           </p>
-          <Button>Register Now</Button>
+          <Button
+            onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSc_URk6CvfCQVQVZFlLXp-bBC281DVvGgriClnOdEScwxz8uQ/viewform', '_blank')}
+            className="cursor-pointer hover:scale-105 transition-transform duration-300"
+          >
+            Register Now
+          </Button>
         </div>
       </section>
 
