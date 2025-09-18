@@ -292,6 +292,11 @@ const timelineData = [
                   <a href="/leaderboard" className="text-gray-300 hover:text-blue-400 transition-colors">
                     Leaderboard
                   </a>
+                </li>                
+                <li>
+                  <a href="https://pccoer.acm.org/" className="text-gray-300 hover:text-blue-400 transition-colors">
+                    ACMxPCCOER
+                  </a>
                 </li>
               </ul>
             </div>
