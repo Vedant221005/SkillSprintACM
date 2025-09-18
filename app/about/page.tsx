@@ -49,7 +49,7 @@ const organizingTeam: TeamMember[] = [
   {
     name: "Kimaya Tambe",
     role: "Coordinator",
-    image: "/team/event-coord.jpg",
+    image: "/team/kimaya.jpg",
     linkedin: "https://www.linkedin.com/in/kimaya-tambe-337ab0289/",
     email: "kimaya.tambe_comp23@pccoer.in"
   },
