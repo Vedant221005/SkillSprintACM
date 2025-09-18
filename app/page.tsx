@@ -61,7 +61,7 @@ const timelineData = [
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 space-y-6 px-4 max-w-[1400px] mx-auto">
           <h1 className="text-5xl font-extrabold">
-            Welcome to SkillSprint 2025
+            Welcome to ACMxSkillSprint 2025
           </h1>
           <p className="text-xl max-w-2xl mx-auto">
             SkillSprint is a 4-week competition organized by ACMxPCCOER, featuring exciting contests in DSA, Figma, Web Coding, and AIML.
