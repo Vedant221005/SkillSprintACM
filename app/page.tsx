@@ -174,8 +174,8 @@ const timelineData = [
   <h2 className="text-3xl text-center font-bold text-gray-800 mb-12">SCHEDULE TIMELINE</h2>
 
   <div className="relative">
-    {/* Center Line */}
-    <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-300"></div>
+    {/* Timeline Line - Center on desktop, Left on mobile */}
+    <div className="absolute md:left-1/2 left-0 md:-translate-x-1/2 translate-x-0 h-full w-1 bg-gray-300" />
 
     <div className="space-y-12">
       {timelineData.map((item, index) => {
@@ -189,38 +189,41 @@ const timelineData = [
             transition={{ duration: 0.6, delay: index * 0.2 }}
             viewport={{ once: true, amount: 0.3 }}
           >
-            <div className={`w-1/2 ${isLeft ? "pr-8 text-right" : ""}`}>
+            {/* On mobile, hide left side content */}
+            <div className={`w-1/2 ${isLeft ? "pr-8 text-right" : ""} hidden md:block`}>
               {isLeft && (
                 <Card
                   onClick={() => setSelectedMonth(item.month)}
                   className="p-6 shadow-md rounded-2xl cursor-pointer hover:scale-105 hover:shadow-xl transition-transform duration-300"
                 >
-                <h3 className="text-xl font-bold" style={{ color: item.color }}>
-                  {item.month}
-                </h3>
+                  <h3 className="text-xl font-bold" style={{ color: item.color }}>
+                    {item.month}
+                  </h3>
                   <p className="text-gray-600" style={{ whiteSpace: 'pre-line' }}>{item.summary}</p>
                 </Card>
               )}
             </div>
 
-            {/* Dot with month color */}
+            {/* Dot - Center on desktop, Left on mobile */}
             <div
-              className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full border-4 border-white shadow-md"
+              className="absolute md:left-1/2 left-0 md:-translate-x-1/2 translate-x-0 w-6 h-6 rounded-full border-4 border-white shadow-md"
               style={{ backgroundColor: item.color }}
-            ></div>
+            />
 
-            <div className={`w-1/2 ${!isLeft ? "pl-8 text-left" : ""}`}>
-              {!isLeft && (
+            {/* Content - Right side content */}
+            <div className={`md:w-1/2 w-full ${!isLeft ? "md:pl-8" : ""} pl-8`}>
+              {/* Desktop: Show only right-side cards. Mobile: Show all cards */}
+              <div className={isLeft ? "md:hidden block" : "block"}>
                 <Card
                   onClick={() => setSelectedMonth(item.month)}
                   className="p-6 shadow-md rounded-2xl cursor-pointer hover:scale-105 hover:shadow-xl transition-transform duration-300"
                 >
-                <h3 className="text-xl font-bold" style={{ color: item.color }}>
-                  {item.month}
-                </h3>
-                  <p className="text-gray-600">{item.summary}</p>
+                  <h3 className="text-xl font-bold" style={{ color: item.color }}>
+                    {item.month}
+                  </h3>
+                  <p className="text-gray-600" style={{ whiteSpace: 'pre-line' }}>{item.summary}</p>
                 </Card>
-              )}
+              </div>
             </div>
           </motion.div>
         );
