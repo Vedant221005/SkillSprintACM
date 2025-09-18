@@ -95,7 +95,12 @@ const timelineData = [
               <li>• Tree Structures</li>
               <li>• Competitive Programming</li>
             </ul>
-            {/* <Button className="mt-4 w-full">Learn More</Button> */}
+            {/* <Button 
+              onClick={() => window.open('https://docs.google.com/forms/d/e/YOUR_DSA_FORM_LINK/viewform', '_blank')}
+              className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white transition-all duration-300 cursor-pointer hover:scale-105"
+            >
+              Submit Solution
+            </Button> */}
           </Card>
 
           {/* Figma Contest */}
@@ -111,7 +116,12 @@ const timelineData = [
               <li>• Design Systems</li>
               <li>• User Research</li>
             </ul>
-            {/* <Button className="mt-4 w-full">Learn More</Button> */}
+            <Button 
+              onClick={() => window.open('https://forms.gle/pTJbx3okeVyVLJZV8', '_blank')}
+              className="mt-6 w-full bg-purple-600 hover:bg-purple-700 text-white transition-all duration-300 cursor-pointer hover:scale-105"
+            >
+              Submit Design
+            </Button>
           </Card>
 
           {/* Web Coding Contest */}
@@ -127,7 +137,12 @@ const timelineData = [
               <li>• API Integration</li>
               <li>• Responsive Design</li>
             </ul>
-            {/* <Button className="mt-4 w-full">Learn More</Button> */}
+            <Button 
+              onClick={() => window.open('https://forms.gle/eyV77RJs7sfx7oee7', '_blank')}
+              className="mt-6 w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300 cursor-pointer hover:scale-105"
+            >
+              Submit Website
+            </Button>
           </Card>
 
           {/* AIML Contest */}
@@ -143,7 +158,12 @@ const timelineData = [
               <li>• Data Science</li>
               <li>• Neural Networks</li>
             </ul>
-            {/* <Button className="mt-4 w-full">Learn More</Button> */}
+            {/* <Button 
+              onClick={() => window.open('https://docs.google.com/forms/d/e/YOUR_AIML_FORM_LINK/viewform', '_blank')}
+              className="mt-6 w-full bg-orange-600 hover:bg-orange-700 text-white transition-all duration-300 cursor-pointer hover:scale-105"
+            >
+              Submit Project
+            </Button> */}
           </Card>
 
         </div>
