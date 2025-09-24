@@ -48,27 +48,27 @@ const leaderboardData: LeaderboardData = {
     {
       teamName: "Pryog",
       members: ["Omkar Patil", "Prajyot Tayde", "Yash Urade", "Greshal Saldanha", "Pranav Ramane"],
-      score: 202,
+      score: 232,
     },
     {
       teamName: "TEAM FNATIC",
       members: ["Divyesh patil ", "Om badgujar ", "Shivani satav", "Swanandi Deshmukh","Yash chavan "],
-      score: 150,
+      score: 180,
     },
     {
       teamName: "Vyom",
       members: ["Irfan Mohammad", "Rajesh Patil", "Atharva Pawar","Himanshu Chougule","Shruti Jadhav"],
-      score: 90,
+      score: 130,
     },
     {
       teamName: "Nocturnals",
       members: ["Rohit Tare", "Adarsh Thakare", "Mayur Tummewar","Akshat", "Neha Thakare"],
-      score: 67,
+      score: 102,
     },
     {
       teamName: "Supreme",
       members: ["Albin Mathew", "Sahil Alaknur", "Drishti Agarwal","Pranav Shegokar","Rugved Bairagi"],
-      score: 60,
+      score: 90,
     },
     {
       teamName: "GAN",
@@ -78,12 +78,12 @@ const leaderboardData: LeaderboardData = {
     {
       teamName: "TechTitans",
       members: ["Aliya Shaikh", "Purva", "Yash Aware","Adarsh Gunari","Shreyas Padaganure"],
-      score: 21,
+      score: 31,
     },    
     {
       teamName: "Binary Beasts",
       members: ["Sudarshan Patil", "Sandip Patil", "Sneha Hadole","Nandini Gandhi","Rohit Jadhav"],
-      score: 9,
+      score: 19,
     },    
     {
       teamName: "AlgoRangers ",
@@ -93,7 +93,7 @@ const leaderboardData: LeaderboardData = {
     {
       teamName: "Codeify",
       members: ["Kajal Jain ", "Rohan kapadi", "Swaraj karle","Janhvesh patil","Kanushri Soni"],
-      score: 5,
+      score: 45,
     },    
     {
       teamName: "HackHer S",
@@ -115,7 +115,7 @@ const leaderboardData: LeaderboardData = {
     },    {
       teamName: "AlgoCrew",
       members: ["Neha Shingi ", "Shruti Sandage ", "Sakshi Yelpale","Shravani Patil"],
-      score: 0,
+      score: 30,
     },    {
       teamName: "ARAIA",
       members: ["Ishaan Gandhi", "Ashmit Kadam", "Atharva Jejurkar","Athena Gutte","Rutvij Chintalwar"],
@@ -128,7 +128,7 @@ const leaderboardData: LeaderboardData = {
     {
       teamName: "Ctrl Alt Achieve",
       members: ["Prajwal Waghmare ", "Mihir Yadav", "Dnyaneshwari Varpe","Shrawani Jagtap"],
-      score: 0,
+      score: 20,
     },    {
       teamName: "Debug Demons",
       members: ["Raj Shinde ", "Ronit singh", "Siya Bhosale","Shreeya Takalkar","Ganesh Kendre"],
