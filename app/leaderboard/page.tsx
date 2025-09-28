@@ -48,7 +48,7 @@ const leaderboardData: LeaderboardData = {
     {
       teamName: "Pryog",
       members: ["Omkar Patil", "Prajyot Tayde", "Yash Urade", "Greshal Saldanha", "Pranav Ramane"],
-      score: 232,
+      score: 412,
     },
     {
       teamName: "TEAM FNATIC",
@@ -58,17 +58,17 @@ const leaderboardData: LeaderboardData = {
     {
       teamName: "Vyom",
       members: ["Irfan Mohammad", "Rajesh Patil", "Atharva Pawar","Himanshu Chougule","Shruti Jadhav"],
-      score: 130,
+      score: 240,
     },
     {
       teamName: "Nocturnals",
       members: ["Rohit Tare", "Adarsh Thakare", "Mayur Tummewar","Akshat", "Neha Thakare"],
-      score: 102,
+      score: 152,
     },
     {
       teamName: "Supreme",
       members: ["Albin Mathew", "Sahil Alaknur", "Drishti Agarwal","Pranav Shegokar","Rugved Bairagi"],
-      score: 90,
+      score: 227,
     },
     {
       teamName: "GAN",
@@ -93,7 +93,7 @@ const leaderboardData: LeaderboardData = {
     {
       teamName: "Codeify",
       members: ["Kajal Jain ", "Rohan kapadi", "Swaraj karle","Janhvesh patil","Kanushri Soni"],
-      score: 45,
+      score: 129,
     },    
     {
       teamName: "HackHer S",
@@ -128,11 +128,11 @@ const leaderboardData: LeaderboardData = {
     {
       teamName: "Ctrl Alt Achieve",
       members: ["Prajwal Waghmare ", "Mihir Yadav", "Dnyaneshwari Varpe","Shrawani Jagtap"],
-      score: 20,
+      score: 84,
     },    {
       teamName: "Debug Demons",
       members: ["Raj Shinde ", "Ronit singh", "Siya Bhosale","Shreeya Takalkar","Ganesh Kendre"],
-      score: 0,
+      score: 125,
     },    {
       teamName: "Debug thugs",
       members: ["Rasika kharche ", "Anoma mhaiskar", "Rakshita bhushan","Samiksha bidkar","Gauri mhasram"],
@@ -170,7 +170,7 @@ const leaderboardData: LeaderboardData = {
     },    {
       teamName: "The Big O(h) my God",
       members: ["Siddhi Chandrashekhar Badhe ", "Sneha Vinod Mankar", "Samiksha Thorat ","Somesh Thakare"],
-      score: 0,
+      score: 105,
     },    {
       teamName: "Xstream",
       members: ["Rushikessh Andhare "],
