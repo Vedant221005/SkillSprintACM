@@ -116,7 +116,7 @@ const leaderboardData: LeaderboardData = {
       teamName: "AlgoCrew",
       members: ["Neha Shingi ", "Shruti Sandage ", "Sakshi Yelpale","Shravani Patil"],
       score: 30,
-    },    {
+    },    { 
       teamName: "ARAIA",
       members: ["Ishaan Gandhi", "Ashmit Kadam", "Atharva Jejurkar","Athena Gutte","Rutvij Chintalwar"],
       score: 0,

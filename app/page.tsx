@@ -10,10 +10,11 @@ export default function Home() {
   const [selectedMonth, setSelectedMonth] = useState<string | null>(null);
 
 const timelineData = [
-  { month: "August", color: "#2563EB", 
+  { month: "September", color: "#2563EB", 
     summary: `9 September - DSA Competition    
     10 - 16 September - Figma Competition
     17 - 23 September - Web Coding Competition  
+    24 - 30 September - Group Project Presentations
     `, 
     
     details: `DSA Competition - Simple DSA contest on Arrays with different algorithms like searching and sorting. 
@@ -41,11 +42,48 @@ const timelineData = [
     ⿤ Call-to-Action Section
     ⿥ Promotions/Offers Section
     ✨ Bonus (Optional): Responsive design, location/map integration, animated counters.    
-    🏆 The best projects will be showcased and winners announced at the end of the month!
+    🏆 The best projects will be showcased and winners announced at the end of the month!
+
+    WEEK 4 FINAL TASK - Group Project Presentations
+    🚀 The final Skillsprint challenge for September is here — Group Project Presentations!
+    Each team will showcase any project you've built so far with a short PPT (maximum 5 slides).
+
+    🔑 Evaluation will be based on:
+    ✅ Group Presentation
+    ✅ Communication Skills
+    ✅ Project Content
     ` }, // blue-600
-  { month: "September", color: "#8B5CF6", summary: `To be release soon`, details: `To be release soon` }, // purple-600
-  { month: "October", color: "#16A34A", summary: `To be release soon`, details: `To be release soon` }, // green-600
-  { month: "November", color: "#F97316", summary: `To be release soon`, details: `To be release soon` }, // orange-500
+  { month: "October", color: "#8B5CF6", 
+    summary: `4 - 11 October - FE Task 1
+    16 October - FE Task 2 
+    `,
+    details: 
+    ` Web Coding Competition
+Create a basic HTML webpage with:
+1. Your Name
+2. Photo (optional)
+3. Hobbies / Interests
+4. Favorite Quote / Motivation
+5. Your Career Goal / Engineering Interest (e.g., AI, Web Dev, Electronics)
+6. A simple "Skills" list you want to learn this semester (like C programming, HTML, MATLAB, etc.)
+⚡ Rules:
+⿡ Individually designed - no group submissions!
+⿢ Color theme must be the same across your group (e.g., white & yellow for all 5 members).
+⿣ You can learn from YouTube/online resources, but no copy-pasting- we will check for originality of your work!
+🎯 Goal: Get comfortable with HTML & CSS basics. Use all your creativity to make it unique!
+
+SkillSprint FE - Task 2 is HERE! 
+Get ready for an epic blend of tech + fun games 👾 — this time, we're going OFFLINE!
+📅 Date: 16th Oct 2025
+⏰ Time: 4:00pm sharp (event will be of 1hr)
+📍 Venue: 6th Floor PCCOE&R
+🔥 Rules & Guidelines:
+⿡ Team Mode ON! You'll be competing in groups — so make sure your squad's at full strength for that winning edge.
+⿢ Bring one fully charged laptop per team.
+⿣ Fair play only! Any malpractice = instant disqualification 🚫
+    ` }, // purple-600
+  { month: "November", color: "#16A34A", summary: `To be release soon`, details: `To be release soon` }, // green-600
+  { month: "December", color: "#F97316", summary: `To be release soon`, details: `To be release soon` }, // orange-500
 ];
 
 
@@ -116,12 +154,12 @@ const timelineData = [
               <li>• Design Systems</li>
               <li>• User Research</li>
             </ul>
-            <Button 
+            {/* <Button 
               onClick={() => window.open('https://forms.gle/pTJbx3okeVyVLJZV8', '_blank')}
               className="mt-6 w-full bg-purple-600 hover:bg-purple-700 text-white transition-all duration-300 cursor-pointer hover:scale-105"
             >
               Submit Design
-            </Button>
+            </Button> */}
           </Card>
 
           {/* Web Coding Contest */}
@@ -137,12 +175,12 @@ const timelineData = [
               <li>• API Integration</li>
               <li>• Responsive Design</li>
             </ul>
-            <Button 
+            {/* <Button 
               onClick={() => window.open('https://forms.gle/eyV77RJs7sfx7oee7', '_blank')}
               className="mt-6 w-full bg-green-600 hover:bg-green-700 text-white transition-all duration-300 cursor-pointer hover:scale-105"
             >
               Submit Website
-            </Button>
+            </Button> */}
           </Card>
 
           {/* AIML Contest */}
